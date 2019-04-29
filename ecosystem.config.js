@@ -7,7 +7,7 @@ module.exports = {
 		production: {
 			user: 'ubuntu',
 			host: 'ec2-18-222-211-54.us-east-2.compute.amazonaws.com',
-			key: '~/.ssh/',
+			key: '~/.ssh/tutorial.pem',
 			ref: 'origin/master',
 			repo: 'git@github.com:durai-rajendran/tutorial.git',
 			path: 'home/ubuntu/tutorial',
